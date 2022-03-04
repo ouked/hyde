@@ -7,19 +7,17 @@ permalink:        pretty
 
 # Setup
 title:            Kate Bowie
-tagline:          "Bristol's Baddest Bitch"
-description:      "The world's best writer"
+tagline:          "Personal Website"
+description:      "Writing words, and looking good doing it"
 url:              http://alex-dawkins.com/hyde
 baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
+
+alex: https://github.com/ouked
 
 github:
   repo:           https://github.com/poole/hyde

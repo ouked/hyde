@@ -1,37 +1,10 @@
 ---
 layout: default
-title: Home
+title: Hello!
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<img style="max-width: 25vw; float: left; margin-right: 2vw" src="/assets/img/kate.JPG"/>
+<p><b>Kate Bowie</b> is a journalist based in Bristol/Brighton/London. She’s currently on staff as a music, culture and current affair journalist at The Latest Brighton. She is also  Co-Deputy Arts Editor at Epigram, Bristol’s award-winning student newspaper. Her work, which encompasses topics from local news to opinion features, has appeared in publications including BN1, The Brighton Indy, Rife Magazine, The Indiependant and Sundial Journal. She also has experience in TV presenting, podcast production and social media management.</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-§
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
