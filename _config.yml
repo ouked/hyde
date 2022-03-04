@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Kate Bowie
 tagline:          "Personal Website"
 description:      "Writing words, and looking good doing it"
-url:              http://alex-dawkins.com/katebowie
-baseurl:          /
+url:              http://alex-dawkins.com/katebowie/
+baseurl:          /katebowie/
 
 paginate:         5
 
